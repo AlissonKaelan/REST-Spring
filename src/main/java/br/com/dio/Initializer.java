@@ -33,9 +33,9 @@ public class Initializer {
 		User user = new User();
 		user.setAtivo(true);
 		user.setEmail("teste@teste.com");
-		user.setNome("Kaique Arantes");
-		user.setSenha(new BCryptPasswordEncoder().encode("123456"));
-		user.setUsername("karantes");
+		user.setNome("Alisson");
+		user.setSenha(new BCryptPasswordEncoder().encode("1213"));
+		user.setUsername("alisson");
 		user.setRoles(Arrays.asList(roleAdmin));
 
 		userService.save(user);
